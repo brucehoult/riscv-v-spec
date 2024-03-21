@@ -1,15 +1,17 @@
 # riscv-v-spec
-Working draft of the proposed RISC-V V vector extension.
+RISC-V V vector extension 1.0.
 
 [Version 1.0](https://github.com/riscv/riscv-v-spec/releases/tag/v1.0)
-has been frozen and at this time is undergoing public review.
-Version 1.0 is considered stable enough to begin developing
-toolchains, functional simulators, and implementations, including in
-upstream software projects, and is not expected to have incompatible
-changes except if serious issues are discovered during
-ratification. Once ratified, the spec will be given version 2.0.
+has been frozen and ratified. At present it is available only in Spike and QEMU and
+the Kendryte K230 SoC found in the CanMV-K230 board. A number of other SoCs and boards
+using them have been announced to be available later in 2024, including Sophgo SG2380, SG2044,
+SpacemiT K1.
 
-The _previous_ stable releases are
+[Draft Version 0.7.1](https://github.com/brucehoult/riscv-v-spec/tree/0.7.1) has been
+implemented by THead in their C906 and C910/C920 cores and widely sold in SoCs including
+the AllWinner D1, Bouffalo BL808, Cvitek CV1800B, Sophgo SG2002 and SG2042, THead TH1520.
+
+Other stable releases are
 [v1.0-rc2](https://github.com/riscv/riscv-v-spec/releases/tag/v1.0-rc2),
 [v1.0-rc1](https://github.com/riscv/riscv-v-spec/releases/tag/v1.0-rc1),
 [v0.10](https://github.com/riscv/riscv-v-spec/releases/tag/v0.10),
